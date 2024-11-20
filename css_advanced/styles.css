@@ -1,0 +1,139 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+/* What we do... section */
+.what-we-do {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.what-we-do .service {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.what-we-do .service h3 {
+    font-size: 1.5em;
+}
+
+.what-we-do .service p {
+    font-size: 1em;
+}
+
+/* Our results section */
+.our-results {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.our-results .result {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.our-results .result h3 {
+    font-size: 1.5em;
+}
+
+.our-results .result p {
+    font-size: 1em;
+}
+
+/* Contact form section */
+.contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact .contact-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact .form-group {
+    margin-bottom: 20px;
+}
+
+.contact .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact .form-group textarea {
+    resize: vertical;
+}
+
+.contact .form-group button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact .form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}
